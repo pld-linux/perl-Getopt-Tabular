@@ -3,7 +3,7 @@ Summary:	Getopt-Tabular perl module
 Summary(pl):	Modu³ perla Getopt-Tabular
 Name:		perl-Getopt-Tabular
 Version:	0.3
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Getopt/Getopt-Tabular-%{v
 Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
