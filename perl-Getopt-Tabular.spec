@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Getopt
 %define	pnam	Tabular
-%include	/usr/lib/rpm/macros.perl
 Summary:	Getopt-Tabular perl module
 Summary(pl):	Modu³ perla Getopt-Tabular
 Name:		perl-Getopt-Tabular
 Version:	0.3
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Getopt-Tabular - table-driven argument parsing for Perl.
 Modu³ perla Getopt-Tabular.
 
 %prep
-%setup -q -n Getopt-Tabular-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
