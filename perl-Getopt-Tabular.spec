@@ -5,7 +5,7 @@ Summary:	Getopt::Tabular - table-driven argument parsing for Perl
 Summary(pl):	Getopt::Tabular - przetwarzanie argumentów z tabeli w Perlu
 Name:		perl-Getopt-Tabular
 Version:	0.3
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
