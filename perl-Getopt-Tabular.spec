@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Getopt::Tabular
 Name:		perl-Getopt-Tabular
 Version:	0.3
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5b24ed68318a749df3930d25b13dd436
