@@ -1,0 +1,8 @@
+--- demo~	Thu Apr  8 03:14:56 1999
++++ demo	Sat Oct  9 17:55:27 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl5 -w
++#!/usr/bin/perl -w
+ 
+ # Example program for the Getopt::Tabular package.  See Getopt/Tabular.pod
+ # for detailed explanation of How Things Work.
