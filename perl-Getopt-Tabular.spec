@@ -5,12 +5,12 @@ Summary:	Getopt::Tabular perl module
 Summary(pl):	Modu³ perla Getopt::Tabular
 Name:		perl-Getopt-Tabular
 Version:	0.3
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +26,8 @@ Modu³ perla Getopt::Tabular.
 %patch -p0
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README demo
-%{perl_sitelib}/Getopt/Tabular.pm
+%{perl_vendorlib}/Getopt/Tabular.pm
 %{_mandir}/man3/*
