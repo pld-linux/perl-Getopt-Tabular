@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Getopt
 %define	pnam	Tabular
-Summary:	Getopt-Tabular perl module
-Summary(pl):	Modu³ perla Getopt-Tabular
+Summary:	Getopt::Tabular perl module
+Summary(pl):	Modu³ perla Getopt::Tabular
 Name:		perl-Getopt-Tabular
 Version:	0.3
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Getopt-Tabular - table-driven argument parsing for Perl.
+Getopt::Tabular - table-driven argument parsing for Perl.
 
 %description -l pl
-Modu³ perla Getopt-Tabular.
+Modu³ perla Getopt::Tabular.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
