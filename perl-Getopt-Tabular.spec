@@ -2,7 +2,7 @@
 %define		pdir	Getopt
 %define		pnam	Tabular
 Summary:	Getopt::Tabular - table-driven argument parsing for Perl
-Summary(pl):	Getopt::Tabular - przetwarzanie argumentÛw z tabeli w Perlu
+Summary(pl.UTF-8):   Getopt::Tabular - przetwarzanie argument√≥w z tabeli w Perlu
 Name:		perl-Getopt-Tabular
 Version:	0.3
 Release:	10
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Getopt::Tabular is a Perl module for table-driven argument parsing,
 vaguely inspired by John Ousterhout's Tk_ParseArgv.
 
-%description -l pl
-Getopt::Tabular jest modu≥em Perla do przetwarzania argumentÛw z
+%description -l pl.UTF-8
+Getopt::Tabular jest modu≈Çem Perla do przetwarzania argument√≥w z
 tabeli, nieznacznie zainspirowanym przez Tk_ParseArgv Johna
 Ousterhouta.
 
