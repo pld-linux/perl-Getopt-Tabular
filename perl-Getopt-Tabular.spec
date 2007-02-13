@@ -2,7 +2,7 @@
 %define		pdir	Getopt
 %define		pnam	Tabular
 Summary:	Getopt::Tabular - table-driven argument parsing for Perl
-Summary(pl.UTF-8):   Getopt::Tabular - przetwarzanie argumentów z tabeli w Perlu
+Summary(pl.UTF-8):	Getopt::Tabular - przetwarzanie argumentów z tabeli w Perlu
 Name:		perl-Getopt-Tabular
 Version:	0.3
 Release:	10
