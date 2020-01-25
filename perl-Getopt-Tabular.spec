@@ -1,6 +1,5 @@
 %define		pdir	Getopt
 %define		pnam	Tabular
-%include	/usr/lib/rpm/macros.perl
 Summary:	Getopt::Tabular - table-driven argument parsing for Perl
 Summary(pl.UTF-8):	Getopt::Tabular - przetwarzanie argumentów z tabeli w Perlu
 Name:		perl-Getopt-Tabular
